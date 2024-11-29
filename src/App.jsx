@@ -24,7 +24,8 @@ function App() {
   return (
     <>
       <h1>Hello Sentry</h1>
-      <button onClick={() => {throw new Error("This is third error!");}}>Break the world</button>
+      <button onClick={() => {throw new Error("This is fourth error!");}}>Break the world</button>
+      <button onClick={() => {throw new Error("This is fifth error!");}}>Break the world 2nd Time</button>
     </>
   )
 }
